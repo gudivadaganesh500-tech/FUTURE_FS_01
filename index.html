@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ganesh — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Ganesh</div>
+
+  <nav>
+    <ul>
+      <li><a href="#" class="nav-link active" data-section="resume">Resume</a></li>
+      <li><a href="#" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#" class="nav-link" data-section="projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <button id="theme-toggle">🌙</button>
+</header>
+
+<main>
+
+  <!-- RESUME -->
+  <section id="resume" class="section active">
+    <div class="hero">
+      <div class="info">
+        <h1>Ganesh Gudivada</h1>
+        <p>Web Developer · Java · DSA Learner</p>
+        <p>Email: gudivadaganesh500@gmail.com</p>
+          <!-- ADD THIS BUTTON -->
+           <a href="GANESH GUDIVADA resume.docx" download="GANESH GUDIVADA resume.docx" class="download-btn">Download Resume
+           </a>
+      </div>
+      <div class="avatar">
+        <img src="profile.png.jpeg" alt="Ganesh">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a 3rd-year B.Tech student passionate about Web Development and Java.
+      I enjoy solving Data Structures and Algorithms problems and building projects.
+      Seeking an entry-level Web Developer role where I can apply my skills and grow professionally.
+      Java and frontend skills to build scalable and user-friendly applications.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Data Structures & Algorithms</li>
+      <li>Git & GitHub</li>
+      
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card">
+      <strong>Portfolio Website</strong>
+      <p>Built using HTML, CSS and JavaScript.
+        <p>Client Lead Management System (Mini CRM)</p>
+        <p>Local Business Website & Live Pitch Project</p>
+      </p>
+    </div>
+    <div class="card">
+      <strong>DSA Practice</strong>
+      <p>Java implementations of algorithms.</p>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
